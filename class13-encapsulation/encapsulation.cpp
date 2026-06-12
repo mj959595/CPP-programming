@@ -7,12 +7,12 @@ class student {
       int marks;
 
   public:
-      void setmarks(int a)
+      void setmarks(int a)   //setter
       {
           marks = a;
       }
 
-      void getmarks()
+      void getmarks()    //getter
       {
           cout << "your marks are = " << marks;
       }
